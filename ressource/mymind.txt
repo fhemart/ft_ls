@@ -1,0 +1,83 @@
+
+		FINISH rapel 0				FINISH rapel 0
+		path = '.'				path = 'argv[pos]
+		true						false
+			2						3
+			\						/
+				\				/
+					\		/
+				argv[pos][0] == '.'
+						true						false
+							1						4
+							\						/
+								\				/
+									\		/
+									pos == argc
+										0
+									ft_sort_param
+
+-------------------------------------------------------
+
+enfonction de la case lue
+sont etat
+se quele doit ecrire
+
+ce quel doit ecrire
+sont etat
+si elle doit se deplacer gauche ou droite
+
+
+
+
+
+
+
+
+
+																	21 true		22 false
+																		\				/
+											**RAPPEL20**		\		/
+												ft_sort_rev		if(R)
+													19 true		20 false
+														\				/
+						**RAPEL18**				\		/
+							ft_sort_t			if (r)
+								17 true			18 false
+									\				/
+										\		/
+										if (t)
+										16 true			?? false
+											\				/
+												\		/
+										if (fill data)
+													15 true		?? false
+														\				/
+															\		/
+															if (dp)
+															14 true		?? false
+																\				/
+																	\		/
+			**FINISH**		**FINISH**		if (dir)
+				print					ERROR					13 true			?? false
+					6	true			7 false					\				/
+						\				/										\		/
+							\		/				**RAPPEL0**	if (lstat)
+					if (lst_add '.')	ft_ls i +1		12 true			?? false
+								5	true			8 false					\				/
+									\				/										\		/
+										\		/					FINISH		ft_lst_add
+	**				print		i +1 == argc	print usage		11 true			?? false
+		5true			6false	4	true			9 false				\				/
+			\				/					\				/									\		/
+				\		/							\		/							if (file exist)
+				if -R				exit		ft_set_opt			ft_sort_param (i,argc)
+					4true		3false	3	true		10 false
+						\			/						\			/
+							\	/								\	/
+						pushstack"."		if(argv[i][0] == '-')
+							1	true			2 false
+								\				/
+									\		/
+										0
+							if (argc == 1)
+									ft_ls i=1

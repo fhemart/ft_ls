@@ -1,0 +1,79 @@
+TODO RECURSIVE EXPLORE
+file max name 500 gogoogle;
+
+list :
+
+file1
+file2
+dir1
+file3
+dir2
+file5
+
+print if -l delete only file link
+
+dir1
+dir2
+
+if -l
+    while data != NULL
+      add_path data(curent)
+      **RAPPEL EXPLORE data**
+
+SEGFAULT PATH ABSOLUE !!!!
+
+- x s S t
+if owner x
+ 	return SET_UID S x
+else
+	return SET_UID s -
+
+idem group
+
+other whit t
+
+sS sS tT
+
+acl '+' acl_free google ca ..
+attr @ free
+
+link readlink google ca
+	if foire exit
+
+31536000 anne si actual time - mtime >31.... show year
+
+/dev/
+/Library/Scripts/42/munki
+
+➤ [ft_ls] git:(master) ✗ ls -l /usr/local/PAMP
+total 232
+lrwxr-xr-x    1 root   wheel     13 Sep 23 23:57 autoconf -> autoconf-2.69
+drwxr-xr-x@  38 root   wheel   1292 Oct  4 20:45 autoconf-2.69
+drwxr-xr-x   11 root   wheel    374 Oct  3 19:29 bin
+drwxr-xr-x    3 root   admin    102 Oct  4 20:45 dl
+lrwxr-xr-x    1 root   admin     13 Oct  3 19:09 freetype -> freetype-2.8/
+drwxr-xr-x    6 root   admin    204 Oct  3 19:09 freetype-2.8
+lrwxr-xr-x    1 root   wheel     12 Sep 24 16:02 httpd -> httpd-2.4.27
+drwxr-xr-x@  69 root   wheel   2346 Oct  4 20:45 httpd-2.4.27
+drwxr-xr-x    3 root   wheel    102 Sep 24 00:03 include
+drwxr-xr-x@ 308 bocal  admin  10472 Oct  4 20:45 jpeg-9b
+drwxr-xr-x   10 root   wheel    340 Oct  3 19:29 lib
+lrwxr-xr-x    1 root   admin     10 Oct  3 18:32 libjpeg -> libjpeg-9b
+drwxr-xr-x    6 root   admin    204 Oct  3 18:31 libjpeg-9b
+lrwxr-xr-x    1 root   wheel     15 Sep 24 16:28 libmcrypt -> libmcrypt-2.5.8
+drwxr-xr-x@  45 root   wheel   1530 Oct  4 20:45 libmcrypt-2.5.8
+lrwxr-xr-x    1 root   admin     14 Oct  3 18:45 libpng -> libpng-1.6.32/
+-------------------->> drwxr-xr-x@ 128 1004   5101    4352 Oct  4 20:45 libpng-1.6.32
+lrwxr-xr-x    1 root   wheel     12 Sep 24 02:53 mysql -> mysql-5.7.19
+drwxr-xr-x   58 root   wheel   1972 Sep 24 02:44 mysql-5.7.19
+-rwxr-xr-x    1 bocal  admin   2106 Oct  3 15:56 mysql.server
+lrwxr-xr-x    1 root   admin     15 Oct  3 19:31 openssl -> openssl-1.1.0f/
+drwxr-xr-x@  58 root   wheel   1972 Oct  4 20:45 openssl-1.1.0f
+lrwxr-xr-x    1 root   wheel      9 Sep 24 15:35 pcre -> pcre-8.41
+drwxr-xr-x@ 230 root   wheel   7820 Oct  4 20:45 pcre-8.41
+lrwxr-xr-x    1 bocal  admin      9 Oct  3 20:14 php -> php-7.1.9
+drwxr-xr-x@  96 bocal  admin   3264 Oct  4 20:46 php-7.1.9
+-rw-r--r--    1 bocal  admin  71096 Oct  3 15:24 php.ini
+drwxr-xr-x    7 root   wheel    238 Sep 24 00:03 share
+drwxr-xr-x    3 root   wheel    102 Sep 24 02:16 src
+drwxr-xr-x    7 root   wheel    238 Oct  4 20:46 ssl

@@ -1,0 +1,33 @@
+return 0                    parse
+                         if argc = 1
+                           /     \
+                          /       \
+            push_stack('.')         if argv[1][0] == '-'
+                                          /        \
+                                         /          \
+                         while argv[i][0] = '-'     get_path('i')
+                          if i = argc               if i< argv
+                          /     \                   ft_sort_param
+                         /       \                  while argv[i] push_stack
+             push_stack('.')    get_path(i)
+
+
+
+ return != -1               print
+                        while STACK
+                          fill_path
+                          fill data(struct perso)
+                          sort_data
+                          while data
+                            fill_print_char
+                            if -R for each d
+                              push_stack path/d_name
+                              next = data->next
+                              free(data)
+                              data = next
+                          print
+                          clear print_char
+                          free(path)
+                          head = next_stack
+                          free(stack)
+                          stack = join_stack(tstack, head)
